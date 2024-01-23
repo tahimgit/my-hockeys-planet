@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="bg-white container mx-auto px-4">
+    <navbar>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="lg:hidden dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h7" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Homepage</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="text-xl text-black cursor-pointer">Hockeys</h1>
+                </div>
+            </div>
+            <div class="navbar-center flex justify-around space-x-8">
+                <a>Home</a>
+                <a>About</a>
+                <a>Pages</a>
+                <a>Blog</a>
+                <a>Contact</a>
+            </div>
+            <div class="navbar-end">
+                <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+                <a class="btn bg-red-500 text-white">GET TICKET</a>
+            </div>
+        </div>
+    </navbar>
+    <!-- carousel section  -->
+    <section>
+        <div class="carousel w-full h-96">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="images/1.png" class="w-full opacity-80" />
+                <div class="absolute flex  transform -translate-y-1/2 left-5 bottom-5 space-x-4">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+                <div class="absolute flex   right-5 bottom-3">
+                    <div class="card w-96 bg-stone-950 p-5">
+                        <h1 class="text-white">hello worlskldjfklsja dfij</h1>
+                        <p class="text-slate-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia dolor,
+                            reiciendis magnam sapiente nam distinctio, voluptates doloremque facere molestiae quibusdam
+                            molestias adipisci illo qui delectus et nesciunt illum ex consequatur!</p>
+                    </div>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="images/2.jpeg" class="w-full opacity-80" />
+                <div class="absolute flex  transform -translate-y-1/2 left-5 bottom-5 space-x-4">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+                <div class="absolute flex  right-5 bottom-5">
+                    <div class="card w-96 bg-stone-950 p-5">
+                        <h1 class="text-white">hello worlskldjfklsja dfij</h1>
+                        <p class="text-slate-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia dolor,
+                            reiciendis magnam sapiente nam distinctio, voluptates doloremque facere molestiae quibusdam
+                            molestias adipisci illo qui delectus et nesciunt illum ex consequatur!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- professinal section  -->
+        <div>
+            <div class="text-center">
+                <h1>Professional Hockeys Club</h1>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin. </p>
+            </div>
+            <div class="flex space-x-8 justify-evenly">
+                <div class="text-center">
+                    <div class="radial-progress text-red-600" style="--value:87;" role="progressbar">87%</div>
+                    <div>
+                        <h1>Player Facily</h1>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing ..</p>
+                    </div>
+                </div>
+                <div class="text-center">
+
+                    <div class="radial-progress text-green-400" style="--value:95;" role="progressbar">95%</div>
+                    <div>
+                        <h1>Player Facily</h1>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing ..</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+                    <div>
+                        <h1>Player Facily</h1>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing ..</p>
+                    </div>
+                </div>
+                <div class="text-center">
+
+                    <div class="radial-progress text-sky-600" style="--value:80;" role="progressbar">80%</div>
+                    <div>
+                        <h1>Player Facily</h1>
+                        <p>Amet consectetur. Condimentum dignissim adipiscing ..</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
